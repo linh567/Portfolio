@@ -128,10 +128,8 @@ function typeWriter(element, text, speed = 100) {
 
 // Optional: Initialize typing effect on page load
 // Uncomment the lines below if you want the typing effect
-/*
 document.addEventListener('DOMContentLoaded', () => {
     const heroTitle = document.querySelector('.hero h1');
     const originalText = heroTitle.textContent;
     typeWriter(heroTitle, originalText, 50);
 });
-*/
